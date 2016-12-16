@@ -1,0 +1,142 @@
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.19.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Fri Dec 16 10:16:38 EST 2016
+
+  System load:     0.0               IP address for eth0:    10.13.1.8
+  Usage of /:      6.1% of 96.10GB   IP address for eth1:    192.168.1.7
+  Memory usage:    69%               IP address for eth2:    192.168.2.5
+  Swap usage:      0%                IP address for eth3:    192.168.3.5
+  Processes:       155               IP address for eth4:    192.168.4.5
+  Users logged in: 1                 IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+55 packages can be updated.
+32 updates are security updates.
+
+New release '16.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+WARNING: Security updates for your current Hardware Enablement Stack
+ended on 2016-08-04:
+ * http://wiki.ubuntu.com/1404_HWE_EOL
+
+To upgrade to a supported (or longer-supported) configuration:
+
+* Upgrade from Ubuntu 14.04 LTS to Ubuntu 16.04 LTS by running:
+sudo do-release-upgrade 
+
+OR
+
+* Switch to the current security-supported stack by running:
+sudo apt-get install linux-image-generic-lts-xenial linux-generic-lts-xenial
+
+and reboot your system.
+*** System restart required ***
+Last login: Fri Dec 16 10:16:38 2016 from localhost
+cons3rt@dr47675v0:~$ [H[Jcons3rt@dr47675v0:~$ ls
+[0m[01;34mBroTraining[0m  [01;34mctf-toolkit[0m
+cons3rt@dr47675v0:~$ cd ctf-toolkit/
+cons3rt@dr47675v0:~/ctf-toolkit$ [H[Jcons3rt@dr47675v0:~/ctf-toolkit$ ls
+LICENSE  output.txt  [0m[01;32mparse.py[0m  [01;32mpasteables.sh[0m  README.md  [01;32mreport.sh[0m  [01;32mupdate.sh[0m
+cons3rt@dr47675v0:~/ctf-toolkit$ source pasteables.sh 
+cons3rt@dr47675v0:~/ctf-toolkit$ baseline
+<output>
+<baseline>
+<hostname>dr47675v0</hostname>
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+<netstat>tcp        0      0 0.0.0.0:6002            0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:5902            0.0.0.0:*               LISTEN      -               
+tcp6       0      0 :::22                   :::*                    LISTEN      -               </netstat>
+<interfaces>2: eth0    inet 10.13.1.8/24 brd 10.13.1.255 scope global eth0
+3: eth1    inet 192.168.1.7/24 brd 192.168.1.255 scope global eth1
+4: eth2    inet 192.168.2.5/24 brd 192.168.2.255 scope global eth2
+5: eth3    inet 192.168.3.5/24 brd 192.168.3.255 scope global eth3
+6: eth4    inet 192.168.4.5/24 brd 192.168.4.255 scope global eth4
+7: docker0    inet 172.17.0.1/16 scope global docker0</interfaces>
+</baseline>
+</output>
+cons3rt@dr47675v0:~/ctf-toolkit$ exit
+logout
+Hello?
+Hello?
+Test
+
+Another test
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.19.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Fri Dec 16 10:16:38 EST 2016
+
+  System load:     0.0               IP address for eth0:    10.13.1.8
+  Usage of /:      6.1% of 96.10GB   IP address for eth1:    192.168.1.7
+  Memory usage:    69%               IP address for eth2:    192.168.2.5
+  Swap usage:      0%                IP address for eth3:    192.168.3.5
+  Processes:       155               IP address for eth4:    192.168.4.5
+  Users logged in: 1                 IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+55 packages can be updated.
+32 updates are security updates.
+
+New release '16.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+WARNING: Security updates for your current Hardware Enablement Stack
+ended on 2016-08-04:
+ * http://wiki.ubuntu.com/1404_HWE_EOL
+
+To upgrade to a supported (or longer-supported) configuration:
+
+* Upgrade from Ubuntu 14.04 LTS to Ubuntu 16.04 LTS by running:
+sudo do-release-upgrade 
+
+OR
+
+* Switch to the current security-supported stack by running:
+sudo apt-get install linux-image-generic-lts-xenial linux-generic-lts-xenial
+
+and reboot your system.
+*** System restart required ***
+Last login: Fri Dec 16 10:16:38 2016 from localhost
+cons3rt@dr47675v0:~$ [H[Jcons3rt@dr47675v0:~$ ls
+[0m[01;34mBroTraining[0m  [01;34mctf-toolkit[0m
+cons3rt@dr47675v0:~$ cd ctf-toolkit/
+cons3rt@dr47675v0:~/ctf-toolkit$ [H[Jcons3rt@dr47675v0:~/ctf-toolkit$ ls
+LICENSE  output.txt  [0m[01;32mparse.py[0m  [01;32mpasteables.sh[0m  README.md  [01;32mreport.sh[0m  [01;32mupdate.sh[0m
+cons3rt@dr47675v0:~/ctf-toolkit$ source pasteables.sh 
+cons3rt@dr47675v0:~/ctf-toolkit$ baseline
+<output>
+<baseline>
+<hostname>dr47675v0</hostname>
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+<netstat>tcp        0      0 0.0.0.0:6002            0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:5902            0.0.0.0:*               LISTEN      -               
+tcp6       0      0 :::22                   :::*                    LISTEN      -               </netstat>
+<interfaces>2: eth0    inet 10.13.1.8/24 brd 10.13.1.255 scope global eth0
+3: eth1    inet 192.168.1.7/24 brd 192.168.1.255 scope global eth1
+4: eth2    inet 192.168.2.5/24 brd 192.168.2.255 scope global eth2
+5: eth3    inet 192.168.3.5/24 brd 192.168.3.255 scope global eth3
+6: eth4    inet 192.168.4.5/24 brd 192.168.4.255 scope global eth4
+7: docker0    inet 172.17.0.1/16 scope global docker0</interfaces>
+</baseline>
+</output>
+cons3rt@dr47675v0:~/ctf-toolkit$ exit
+logout
+Hello?
+Hello?
+Test
+
+Another test
